@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
 
@@ -23,18 +24,20 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user</li>
-          <li>Head element information mainly includes meta data such as character sets </li>
-          <li>HTML is best described as the frame around which the website is built, in opposition to CSS and JavaScript</li>
-          <li>The head element contains the title element, which appears at the tab we have open. it is incredibly useful for becoming more marketable to search engines</li>
-          <li>Body and head are examples of semantic elements, as opposed to div elements for example, which create a division</li>
-          <li>the a element stands for anchor, creating a link to another website. the href attribute points to the URL</li>
-          <li>The ul, li and ol elements represent lists</li>
-          <li>The p element represents a paragraph</li>
-          <li>H1 h2 etc represent the level of heading, with 1 being the largest and 6 the smallest</li>
-          <li>the br element creates a nice break</li>
-          <li>The img element contains information about the image displayed, the src attribute is the most important because it provides the location of the image shown</li>
+          <li> The head element contains information about the webpage.</li>
+          <li> The body element represents the visible content shown to the user</li>
+          <li> Head element information mainly includes meta data such as character sets </li>
+          <li> HTML is best described as the frame around which the website is built, in opposition to CSS and JavaScript</li>
+          <li> The head element contains the title element, which appears at the tab we have open. it is incredibly useful for becoming more marketable to search engines</li>
+          <li> Body and head are examples of semantic elements, as opposed to div elements for example, which create a division</li>
+          <li> The a element stands for anchor, creating a link to another website. the href attribute points to the URL</li>
+          <li> The ul, li and ol elements represent lists</li>
+          <li> The p element represents a paragraph</li>
+          <li> H1 h2 etc represent the level of heading, with 1 being the largest and 6 the smallest</li>
+          <li> The br element creates a nice break</li>
+          <li> The img element contains information about the image displayed, the src attribute is the most important because it provides the location of the image shown</li>
+          <li> The class selector ties in with CSS, as you can see when using the inspect function on this website, this section has been designated "card"</li>
+          <li> Any element assigned the class "card" will gain the property assignments given to it in the CSS file</li>
         </ul>
         </section>
 
@@ -42,19 +45,17 @@
         <section class="card" id="css-section">
           <h2>CSS</h2>
           <ul>
-            <li>enter css notes</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li> To start with, CSS can be used in three ways.</li>
+            <li> Inline CSS, which is used to style an element directly by applying it to the element</li>
+            <li> Internal CSS style sheets, created by using a style element in the head element, it sets CSS rules for the webpage below the meta data</li>
+            <li> External CSS style sheets, which creates simplicity for adjustments as all the rules are kept in a seperate file, abiding by the principle of separation of concerns.</li>
+            <li> To make use of an external style sheet, we link to the file using a link element placed in the HTML's header</li>
+            <li> A CSS rule is made up of a selector, and a declaration block</li>
+            <li> You may select more than one element a rule may apply to, IE header, footer. This aids with DRY coding (do not repeat yourself)</li>
+            <li> * targets all</li>
+            <li> A margin indicates how much space we want around the outside of an element</li>
+            <li> A padding indicates how much space we want around the content inside an element</li>
+            <li> This is best visualized as a box containing the element. the padding being inside its border, the margin being space outside its border, and the content being in the center</li>
           </ul>
         </section>
 
@@ -62,23 +63,22 @@
         <section class="card" id="git-section">
           <h2>Git</h2>
           <ul>
-            <li>li displays folders within your directory</li>
-            <li>CD "foldername" changes directory</li>
-            <li>CD.. changes directory to parent directory</li>
-            <li>git status checks what branch we are on</li>
-            <li>git checkout is essentially like checking out at a grocery store</li>
-            <li>The -b command indicates a new branch;ie git checkout -b "newbranchname"</li>
-            <li>git push uploads the update to github</li>
-            <li>git push --set-upstream indicates what you are pushing into</li>
-            <li>the origin command indicates location</li>
-            <li>git pull will download the most up to date version of our branch</li>
-            <li>git merge consolidates branches</li>
-            <li>the -m command adds a message, as in "git commit-m "message"</li>
-            <li>a commit must be staged, for which we use the git add "filename" command, if we want to undo the staging of a specific file, we would use git reset "filename"</li>
-            <li>git clone "url" will clone a repo from github down to our machine</li>
-            <li>git branch will list your branches, * will show which branch is active</li>
-            <li>git log will show all commits in the current branches history</li>
-            <li></li>
+            <li> Li displays folders within your directory</li>
+            <li> CD "foldername" changes directory</li>
+            <li> CD.. changes directory to parent directory</li>
+            <li> Git status checks what branch we are on</li>
+            <li> Git checkout is essentially like checking out at a grocery store</li>
+            <li> The -b command indicates a new branch;ie git checkout -b "newbranchname"</li>
+            <li> Git push uploads the update to github</li>
+            <li> Git push --set-upstream indicates what you are pushing into</li>
+            <li> The origin command indicates location</li>
+            <li> Git pull will download the most up to date version of our branch</li>
+            <li> Git merge consolidates branches</li>
+            <li> The -m command adds a message, as in "git commit-m "message"</li>
+            <li> A commit must be staged, for which we use the git add "filename" command, if we want to undo the staging of a specific file, we would use git reset "filename"</li>
+            <li> Git clone "url" will clone a repo from github down to our machine</li>
+            <li> Git branch will list your branches, * will show which branch is active</li>
+            <li> Git log will show all commits in the current branches history</li>
           </ul>
         </section>
 
