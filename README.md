@@ -5,25 +5,20 @@ In the process of creating this website, I've had to acquire a few new skills, a
 
 ## Table of Contents
 
-- [Future](## Future)
 - [Usage](## Usage)
 - [Credits](## Credits)
 - [License](## License)
 
-## Future
-
-As of the writing of the writing of this README, 10/23/22, there are still a few things I would like to achieve on this site before I decide I'm done, namely drop down menu's and making it look less like a website from 2002, but as of now I am not certain if I'm allowed to go over expectations as this is supposed to be for an educational project. Once I have submitted it and received feedback, there will be updates regarding said goals with timestamps for legibility.
-
 ## Usage
 
-Open the website, read the allotted sections for what you want to learn. Make sure to use the inspect function to see what JavaScripts console.log has to say!
+Open the website, read the allotted sections on what you want to learn. Make sure to use the inspect function to see what JavaScripts console.log has to say!
 
 ```md
-![an image showing the inspect function](/assets/images/inspect.png)
+![an image showing the inspect function](./inspect.png)
 ```
 
 ```md
-![an image showing the console](/assets/images/console.png)
+![an image showing the console](./console.png)
 ```
 
 ## Credits
@@ -32,4 +27,5 @@ Open the website, read the allotted sections for what you want to learn. Make su
 
 ## License
 This project has been licensed under the MIT license
+
 ![MIT](https://img.shields.io/github/license/azrazel95/prework-study-guide)
